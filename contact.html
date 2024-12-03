@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2d0f2967f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="top-page">
+      <form action="" class="search-box">
+        <input type="text" placeholder="Search here" id="id-text" />
+        <label for="id-text" class="fa-solid fa-magnifying-glass"></label>
+      </form>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <label class="logo">SLDS</label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="case.html">Case Studies</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+        <li><a href="index.html">Log Out</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </nav>
+
+    <section class="sec-cont">
+      <div class="content-cont">
+        <div class="width-cont">
+          <h2>Contact Us</h2>
+          <p>
+            We are designers who create intelligent illustractions which boost
+            you business and aesthetic.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mid-sec width-container">
+      <div class="container-off">
+        <div class="width-p-cont">
+          <h2>our Phnom Penh office</h2>
+          <div class="icon-p-cont">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="p-cont">
+              <p>Songkat Tuek Thla, Khan Sensok, Phnom Penh</p>
+              <p>+85587706252</p>
+            </div>
+          </div>
+          <button>Know more</button>
+        </div>
+        <div class="img-cont">
+          <img src="images/office.png" alt="" />
+        </div>
+      </div>
+      <div class="contianer-work">
+        <div class="img-work">
+          <img src="images/working.jpg" alt="work" />
+        </div>
+        <div class="width-p-cont-2">
+          <h2>Our Team Working</h2>
+          <div class="icon-p-cont-2">
+            <i class="fa-solid fa-calendar-days"></i>
+            <div class="p-cont-2">
+              <p>Working Days : Monday - Friday</p>
+              <p>.Morning 8:30 to 11:00</p>
+              <p>.Afternoon 1:00 to 5:00</p>
+            </div>
+          </div>
+          <button>Know more</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="talk-sec">
+      <div class="container-talk width-container">
+        <div class="card-talk">
+          <form>
+            <div class="container-text">
+              <div class="input-text">
+                <label>First Name</label>
+                <input type="text" placeholder="First Name" />
+              </div>
+              <div class="input-text">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="input-email">
+              <label> Email <i class="fa-solid fa-envelope"></i> </label>
+              <input type="email" placeholder="Email Address" />
+            </div>
+            <div class="input-sub">
+              <label>Subject</label>
+              <input type="subject" placeholder="Subject" />
+            </div>
+            <div class="input-mess">
+              <label> Your Message <i class="fa-solid fa-message"></i> </label>
+              <textarea cols="20" rows="2">Your Message</textarea>
+            </div>
+            <button>Submit Form</button>
+          </form>
+        </div>
+        <div class="content-talk">
+          <div class="content-p-h2">
+            <h2>Let's Talk</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="icon-p-talk">
+            <p><i class="fa-solid fa-envelope"></i> ornrathtina123@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +85587706252</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cont-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d31269.30878691316!2d104.85330272602519!3d11.57595616507942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d11.589961599999999!2d104.8681338!4m5!1s0x310951bca80e3891%3A0x68d8f0b27bfa7576!2z4Z6V4Z-S4Z6f4Z624Z6aIOGekeGeueGegOGekOGfkuGem-Getiwg4Z6X4Z-S4Z6T4Z-G4Z6W4Z-B4Z6J!3m2!1d11.5618802!2d104.8797081!5e0!3m2!1skm!2skh!4v1706511630272!5m2!1skm!2skh"
+        width="100%"
+        height="750"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!-- Touch -->
+    <section class="touch width-container">
+      <div class="t-content">
+        <h2>Get in touch with Us</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="t-button">
+        <button class="b-green">Contact Us</button>
+        <button class="b-blue">Know more</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="p-footer">
+        <h2>Get notified about new amazing products</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          placeat, nesciunt illo sit eaque dolores.
+        </p>
+      </div>
+      <form>
+        <label>
+          <input type="email" placeholder="Your Email Address" />
+          <button>Subscribe</button>
+        </label>
+      </form>
+      <ul class="f-list">
+        <li class="f-link"><a href="#">Product</a></li>
+        <li class="f-link"><a href="#">Company</a></li>
+        <li class="f-link"><a href="#">Learn More</a></li>
+        <li class="f-link"><a href="#">GEt In Touch</a></li>
+      </ul>
+      <div class="f-social width-container">
+        <p>SL Digital Sulotion</p>
+        <div class="icon-social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
